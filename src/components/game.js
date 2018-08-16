@@ -93,16 +93,11 @@ export class Game extends React.Component {
   }
 }
 
-// Game.defaultProps = {
-//   guesses: [],
-//   feedback: 'Make your guess!',
-//   auralStatus: '',
-//   correctAnswer: Math.floor(Math.random() * 100) + 1
-// };
-    
-
 // const mapStateToProps = (state) => ({
-//   guesses: state.guesses
+//   guesses: state.guesses,
+//   feedback: state.feedback,
+//   auralStatus: state.auralStatus,
+//   correctAnswer: Math.floor(Math.random() * 100) + 1
 // });
 
 // export default connect(mapStateToProps)(Game);
