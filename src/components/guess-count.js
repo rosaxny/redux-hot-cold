@@ -12,3 +12,9 @@ export default function GuessCount(props) {
         </h2>
     );
 }
+
+const mapStateToProps = (state) => ({
+    guessCount: state.guesses.length
+});
+
+export default connect(mapStateToProps)(GuessCount);

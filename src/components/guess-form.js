@@ -41,3 +41,5 @@ export default class GuessForm extends React.Component {
     );
   }
 }
+
+export default connect()(GuessForm);
